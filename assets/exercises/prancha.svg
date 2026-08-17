@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430">
+<rect width="800" height="430" rx="28" fill="#f8fafc"/>
+<text x="400" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#111827">Prancha</text>
+<rect x="28" y="60" width="350" height="340" rx="20" fill="#ffffff" stroke="#d1d5db" stroke-width="3"/>
+<rect x="422" y="60" width="350" height="340" rx="20" fill="#ffffff" stroke="#d1d5db" stroke-width="3"/>
+<text x="52" y="94" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#2563eb">INÍCIO</text>
+<text x="446" y="94" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#2563eb">FINAL</text>
+<circle cx="190" cy="157.0" r="18.0" fill="#f3c9a8" stroke="#111827" stroke-width="4"/><path d="M170.0,177.0 Q190,163.0 210.0,177.0 L208.0,227.0 Q190,240.0 172.0,227.0 Z" fill="#2563eb"/><line x1="185.0" y1="225.0" x2="260.0" y2="243.0" stroke="#111827" stroke-width="10.0" stroke-linecap="round"/><line x1="180.0" y1="235" x2="145.0" y2="260.0" stroke="#111827" stroke-width="10.0" stroke-linecap="round"/><line x1="245.0" y1="240.0" x2="270.0" y2="277.0" stroke="#111827" stroke-width="10.0" stroke-linecap="round"/><circle cx="190" cy="157.0" r="18.0" fill="#f3c9a8" stroke="#111827" stroke-width="4"/><path d="M170.0,177.0 Q190,163.0 210.0,177.0 L208.0,227.0 Q190,240.0 172.0,227.0 Z" fill="#2563eb"/><line x1="185.0" y1="225.0" x2="260.0" y2="243.0" stroke="#111827" stroke-width="10.0" stroke-linecap="round"/><line x1="180.0" y1="235" x2="145.0" y2="260.0" stroke="#111827" stroke-width="10.0" stroke-linecap="round"/><line x1="245.0" y1="240.0" x2="270.0" y2="277.0" stroke="#111827" stroke-width="10.0" stroke-linecap="round"/>
+<line x1="115" y1="310" x2="300" y2="310" stroke="#9ca3af" stroke-width="14" stroke-linecap="round"/><line x1="500" y1="310" x2="685" y2="310" stroke="#9ca3af" stroke-width="14" stroke-linecap="round"/>
+<text x="400" y="417" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#4b5563">Colchonete • movimento controlado</text>
+</svg>
