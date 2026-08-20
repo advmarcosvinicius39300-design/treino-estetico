@@ -1,4 +1,4 @@
-const CACHE = 'treino-estetico-v8';
+const CACHE = 'treino-estetico-v9';
 const CORE = [
   './', './index.html', './manifest.json', './icon-192.png', './icon-512.png'
 ];
