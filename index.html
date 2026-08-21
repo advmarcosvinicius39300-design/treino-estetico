@@ -190,36 +190,57 @@ const EXINFO={
 "Tríceps corda":["Tríceps","Polia + corda","Mantenha os cotovelos próximos ao tronco.","Empurre a corda para baixo.","Retorne controlando.","Não incline o tronco para usar o peso do corpo."]
 };
 
-const EXIMG={
-"Supino inclinado com halteres":"supino_inclinado_halteres.jpg",
-"Supino reto com barra":"supino_reto_barra.jpg",
-"Supino inclinado":"supino_inclinado_halteres.jpg",
-"Desenvolvimento com halteres":"desenvolvimento_halteres.jpg",
-"Elevação lateral":"elevacao_lateral.jpg",
-"Crucifixo/crossover":"crucifixo_halteres.jpg",
-"Tríceps na polia":"triceps_polia.jpg",
-"Tríceps francês":"triceps_frances.jpg",
-"Tríceps corda":"triceps_corda.jpg",
-"Puxada frontal / barra fixa":"puxada_frontal.jpg",
-"Remada baixa":"remada_cavalinho.jpg",
-"Remada unilateral com halter":"remada_unilateral_halter.jpg",
-"Pulldown braços estendidos":"puxada_aberta_polia.jpg",
-"Face pull":"face_pull.jpg",
-"Rosca direta":"rosca_direta_barra.jpg",
-"Rosca martelo":"rosca_martelo_halteres.jpg",
-"Elevação de pernas":"elevacao_pernas.jpg",
-"Abdominal na polia/máquina":"elevacao_pernas.jpg",
-"Abdominal na polia":"elevacao_pernas.jpg",
-"Agachamento livre ou Smith":"agachamento.jpg",
-"Leg press":"leg_press.jpg",
-"Cadeira extensora":"cadeira_extensora.jpg",
-"Mesa flexora":"mesa_flexora.jpg",
-"Stiff / RDL":"stiff_rdl.jpg",
-"Panturrilha em pé":"panturrilha_em_pe.jpg",
-"Panturrilha sentado":"panturrilha_sentado.jpg",
-"Prancha":"prancha.jpg",
-"Remada com barra":"remada_curvada_barra.jpg",
-"Crucifixo inverso":"face_pull.jpg",
+const EXIMG = {
+  "Supino reto com barra":"assets/exercises/supino_reto_barra.jpg",
+  "Supino inclinado com halteres":"assets/exercises/supino_inclinado_halteres.jpg",
+  "Supino inclinado":"assets/exercises/supino_inclinado_halteres.jpg",
+
+  "Desenvolvimento com halteres":"assets/exercises/desenvolvimento_halteres.jpg",
+  "Desenvolvimento":"assets/exercises/desenvolvimento_halteres.jpg",
+  "Elevação lateral":"assets/exercises/elevacao_lateral.jpg",
+
+  "Crucifixo/crossover":"assets/exercises/crucifixo_halteres.jpg",
+  "Crucifixo":"assets/exercises/crucifixo_halteres.jpg",
+
+  "Tríceps na polia":"assets/exercises/triceps_polia.jpg",
+  "Tríceps corda":"assets/exercises/triceps_corda.jpg",
+  "Tríceps francês":"assets/exercises/triceps_frances.jpg",
+  "Tríceps testa":"assets/exercises/triceps_testa_barra.jpg",
+
+  "Puxada frontal / barra fixa":"assets/exercises/puxada_frontal.jpg",
+  "Puxada frontal":"assets/exercises/puxada_frontal.jpg",
+  "Barra fixa":"assets/exercises/puxada_frontal.jpg",
+
+  "Remada baixa":"assets/exercises/remada_cavalinho.jpg",
+  "Remada com barra":"assets/exercises/remada_curvada_barra.jpg",
+  "Remada curvada":"assets/exercises/remada_curvada_barra.jpg",
+  "Remada unilateral com halter":"assets/exercises/remada_unilateral_halter.jpg",
+
+  "Pulldown braços estendidos":"assets/exercises/puxada_aberta_polia.jpg",
+  "Pulldown":"assets/exercises/puxada_aberta_polia.jpg",
+  "Face pull":"assets/exercises/face_pull.jpg",
+
+  "Rosca direta":"assets/exercises/rosca_direta_barra.jpg",
+  "Rosca direta com barra":"assets/exercises/rosca_direta_barra.jpg",
+  "Rosca martelo":"assets/exercises/rosca_martelo_halteres.jpg",
+  "Rosca martelo com halteres":"assets/exercises/rosca_martelo_halteres.jpg",
+  "Rosca alternada":"assets/exercises/rosca_alternada_halteres.jpg",
+  "Rosca concentrada":"assets/exercises/rosca_concentrada.jpg",
+
+  "Agachamento livre ou Smith":"assets/exercises/agachamento.jpg",
+  "Agachamento":"assets/exercises/agachamento.jpg",
+  "Leg press":"assets/exercises/leg_press.jpg",
+  "Cadeira extensora":"assets/exercises/cadeira_extensora.jpg",
+  "Mesa flexora":"assets/exercises/mesa_flexora.jpg",
+  "Stiff / RDL":"assets/exercises/stiff_rdl.jpg",
+
+  "Panturrilha em pé":"assets/exercises/panturrilha_em_pe.jpg",
+  "Panturrilha sentado":"assets/exercises/panturrilha_sentado.jpg",
+
+  "Elevação de pernas":"assets/exercises/elevacao_pernas.jpg",
+  "Abdominal na polia":"assets/exercises/elevacao_pernas.jpg",
+  "Abdominal na polia/máquina":"assets/exercises/elevacao_pernas.jpg",
+  "Prancha":"assets/exercises/prancha.jpg"
 };
 let state=JSON.parse(localStorage.getItem("treinoV2")||'{"history":[],"loads":{},"done":{},"last":"A","time":30}');
 let current="A", currentIndices=[], timerId=null, timerValue=90;
